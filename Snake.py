@@ -1,3 +1,13 @@
+
+from random import randint
+import unicornhat as unicorn
+import threading
+unicorn.brightness(.5)
+unicorn.set_layout(unicorn.AUTO)
+unicorn.rotation(0)
+width,height=unicorn.get_shape()
+unicorn.rotation(0)
+
 class snake(threading.Thread):
       def __init__(self,observer):
 	  threading.Thread.__init__(self);

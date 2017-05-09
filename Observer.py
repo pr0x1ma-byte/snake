@@ -1,3 +1,16 @@
+from Snake import snake
+from User import user
+from FruitGenerator import fruitGenerator
+import unicornhat as unicorn
+from pyfiglet import figlet_format
+import os
+import sys
+k=-1
+unicorn.brightness(.5)
+unicorn.set_layout(unicorn.AUTO)
+unicorn.rotation(0)
+width,height=unicorn.get_shape()
+unicorn.rotation(0)
 class observer():
       def __init__(self):
 	  self.exit = False;
