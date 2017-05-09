@@ -2,6 +2,7 @@
 from random import randint
 import unicornhat as unicorn
 import threading
+import time
 unicorn.brightness(.5)
 unicorn.set_layout(unicorn.AUTO)
 unicorn.rotation(0)
